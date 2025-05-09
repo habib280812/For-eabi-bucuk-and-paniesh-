@@ -17,6 +17,7 @@
       justify-content: center;
       height: 100vh;
     }
+
     .slider-container {
       position: relative;
       width: 90vw;
@@ -28,6 +29,7 @@
       background-color: #fff;
       padding: 20px;
     }
+
     .slide {
       position: absolute;
       width: 100%;
@@ -42,10 +44,12 @@
       font-size: 1.8rem;
       color: #ff69b4;
     }
+
     .slide.active {
       opacity: 1;
       transform: scale(1);
     }
+
     .bubble {
       background-color: #fff0fa;
       border-radius: 25px;
@@ -54,13 +58,16 @@
       max-width: 90%;
       animation: pop 1s ease-in-out;
     }
+
     @keyframes pop {
       0% { transform: scale(0.8); opacity: 0; }
       100% { transform: scale(1); opacity: 1; }
     }
+
     .controls {
       margin-top: 15px;
     }
+
     .btn {
       background-color: #ffb6c1;
       border: none;
@@ -73,9 +80,11 @@
       box-shadow: 0 2px 5px rgba(0,0,0,0.2);
       transition: background-color 0.3s ease;
     }
+
     .btn:hover {
       background-color: #ff69b4;
     }
+
     .sparkle {
       position: absolute;
       width: 8px;
@@ -84,6 +93,7 @@
       border-radius: 50%;
       animation: sparkle 4s infinite;
     }
+
     @keyframes sparkle {
       from { transform: translateY(0); opacity: 1; }
       to { transform: translateY(-150px); opacity: 0; }
