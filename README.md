@@ -13,14 +13,12 @@
       padding: 0;
       overflow-x: hidden;
     }
-
    header {
       background-color: #6c5ce7;
       color: white;
       padding: 20px;
       animation: fadeDown 1s ease-in-out;
     }
-
    .character {
       margin: 40px auto;
       max-width: 300px;
@@ -31,7 +29,6 @@
     .character:nth-child(2) {
       animation-delay: 0.5s;
     }
-
    .character:nth-child(3) {
       animation-delay: 1s;
     }
@@ -56,7 +53,6 @@
         transform: translateY(0);
       }
     }
-
    @keyframes fadeDown {
       from {
         opacity: 0;
@@ -73,8 +69,7 @@
       width: 80%;
       max-width: 560px;
       height: 315px;
-   }
-  </style>
+    }  </style>
 </head>
 <body>
   <header>
