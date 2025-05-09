@@ -82,8 +82,8 @@
 <body>
 
   <div class="carousel" id="carousel">
-    <div class="slide">Eabi bucuk sangat comel macam gula kapas!</div>
-    <div class="slide">Paniesh wangi macam bunga sakura musim bunga!</div>
+    <div class="slide">Eabi bucuk sangat comel macam gula kapas dan cool!</div>
+    <div class="slide">Paniesh wangi macam bunga sakura musim bunga walaupun introvert!</div>
     <div class="slide">Mereka berdua macam anime couple paling sweet!</div>
   </div>
 
